@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>details</title>
+</head>
+<body>
+<h1>submitted details </h1>
+<p>your name is :<span id="name"></span></p><br>
+ <p>your email is :<span id="email"></span></p><br>
+ <p>your address is :<span id="address"></span></p><br>
+  
+<script>
+document.getElementById("name").textContent =localStorage.getItem("name");
+document.getElementById("email").textContent  = localStorage.getItem("email");
+document.getElementById("address").textContent = localStorage.getItem("address");
+</script>
+</body>
+</html>
